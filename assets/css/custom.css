@@ -162,7 +162,7 @@ h1,h2,h3,h4,h5,h6,p{
 /* header end  */
 /* home banner start  */
 section.banner_home {
-    background-image: url(/assets/images/home_banner.png);
+    background-image: url(../images/home_banner.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 575px;
@@ -185,7 +185,7 @@ section.home_img-section {
     position: absolute;
     bottom: -81px;
     left: 60%;
-    background-image: url(/assets/images/home-image_box.png);
+    background-image: url(../images/home-image_box.png);
     width: 300px;
     height: 100px;
     background-size: contain;
@@ -253,7 +253,7 @@ button.slick-next.slick-arrow {
 }
 i.arrow_right {
     
-    background-image: url(/assets/images/arrow-right.png);
+    background-image: url(../images/arrow-right.png);
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
@@ -264,7 +264,7 @@ i.arrow_right {
 }
 i.arrow_left{
     
-    background-image: url(/assets/images/prev.png);
+    background-image: url(../images/prev.png);
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
@@ -285,7 +285,7 @@ i.arrow_left{
 
 /* .slick-next:before {
     content: '→';
-    background-image: url(/assets/images/arrow-right.png);
+    background-image: url(../images/arrow-right.png);
     background-repeat: no-repeat;
     position: absolute;
     top: 50%;
@@ -296,7 +296,7 @@ i.arrow_left{
 } */
 /* .slick-prev:before {
     content: '→';
-    background-image: url(/assets/images/prev.png);
+    background-image: url(../images/prev.png);
     background-repeat: no-repeat;
     position: absolute;
     top: 50%;
@@ -309,7 +309,7 @@ i.arrow_left{
     content: "<";
     color: red;
     font-size: 30px;
-    background-image: url(/assets/images/arrow-right.png);
+    background-image: url(../images/arrow-right.png);
   }
   
   .slick-next:before {
@@ -365,7 +365,8 @@ section.assets_classes .rent_title h4 ,section.assets_classes .rent_title p {
     background: white;
 }
 section.investing {
-    background-image: url(/assets/images/start-investing.png);
+    background-image: url("/images/start-investing.png");
+    background-image: url(../images/start-investing.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
