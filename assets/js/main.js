@@ -1,18 +1,3 @@
-// NAVE scroll
-$(document).ready(function() {
-    window.addEventListener("scroll", function() {
-        var header = document.querySelector(".header");
-        header.classList.toggle("sticky-bar", window.scrollY > 50);
-    });
-
-});
-$(document).ready(function() {
-    window.addEventListener("scroll", function() {
-        var headers = document.querySelector(".headers");
-        headers.classList.toggle("sticky-bar", window.scrollY > 50);
-    });
-
-});
 // tab end 
 var btn = $('#button');
 
@@ -30,6 +15,22 @@ btn.on('click', function(e) {
 });
 
 // top button end
+// NAVE scroll
+$(document).ready(function() {
+    window.addEventListener("scroll", function() {
+        var header = document.querySelector(".header");
+        header.classList.toggle("sticky-bar", window.scrollY > 50);
+    });
+
+});
+$(document).ready(function() {
+    window.addEventListener("scroll", function() {
+        var headers = document.querySelector(".headers");
+        headers.classList.toggle("sticky-bar", window.scrollY > 50);
+    });
+
+});
+
 
 $('.commercial_slider').slick({
     autoplay: true,

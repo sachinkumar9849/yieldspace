@@ -271,17 +271,7 @@ section.home_img-section {
     width: 232px;
 }
 /* rent end  */
-button.slick-next.slick-arrow,button.slick-prev.slick-arrow {
-
-    width: 50px;
-    height: 50px;
-    border: 2px solid #1B3A6A;
-    border-radius: 13px;
-    line-height: 46px;
-
-    position: absolute;
-   
-}
+button.slick-next.slick-arrow,button.slick-prev.slick-arrow {width: 45px;height: 45px;border: 2px solid #1B3A6A;border-radius: 13px;line-height: 46px;position: absolute;}
 button.slick-prev.slick-arrow {
     top: -42px;
     left: 90%;
@@ -293,15 +283,14 @@ button.slick-next.slick-arrow {
     right: 0;
 }
 i.arrow_right {
-    
     background-image: url(../images/arrow-right.png);
     background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
+    width: 29px;
+    height: 70px;
     display: block;
     position: absolute;
     top: 9px;
-    right: -71px;
+    right: -5px;
 }
 i.arrow_left{
     
@@ -315,17 +304,17 @@ i.arrow_left{
     right: -71px;
 }
 .slick-prev:before {
-    content: '→';
+    content: 'â†’';
     visibility: hidden;
 }
 .slick-next:before {
-    content: '→';
+    content: 'â†’';
     visibility: hidden;
 }
 
 
 /* .slick-next:before {
-    content: '→';
+    content: 'â†’';
     background-image: url(../images/arrow-right.png);
     background-repeat: no-repeat;
     position: absolute;
@@ -336,7 +325,7 @@ i.arrow_left{
     opacity: 1;
 } */
 /* .slick-prev:before {
-    content: '→';
+    content: 'â†’';
     background-image: url(../images/prev.png);
     background-repeat: no-repeat;
     position: absolute;
@@ -471,3 +460,51 @@ ul.footer_list li a {
     font-size: 16px;
     line-height: 25px;
 }
+
+  footer {
+    padding-top: 85px;
+  }
+  .footer-img {
+    background-image: url(../images/footer-bg.png);
+    background-color: #141414;
+    /* position: fixed;
+    top: 0;
+  width:100%;
+  z-index:0;
+  min-height:100%;
+  height:auto; */
+  }
+
+
+  /* top scroll btn start */
+#button.show {
+    opacity: 1;
+    visibility: visible;
+ }
+ #button {
+       width: 86px;
+       height: 86px;
+       bottom: 30px;
+       right: 30px;
+       transition: background-color .3s, opacity .5s, visibility .5s;
+       opacity: 0;
+       position: fixed;
+ }
+ #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    line-height: 50px;
+ }
+ a#button {
+    background: #1b3a6a;
+    color: white;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+ /* btn end  */
