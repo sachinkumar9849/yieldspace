@@ -102,6 +102,39 @@ a.btn_outline {
 
 /* button end  */
 /* header start  */
+/* HEADER STICKY  */
+.sticky {
+    top: 0;
+    z-index: 99;
+    width: 100%;
+  }
+  .sticky-bar {
+    left: 0;
+    margin: auto;
+    position: fixed !IMPORTANT;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    background: #fff;
+  }
+  @keyframes fadeInDown {
+    from {
+        transform: translateY(0px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(50);
+        opacity: 1;
+    }
+  }
+  header.header {
+    box-shadow: rgb(0 0 0 / 45%) 0px 25px 20px -20px !important;
+    z-index: 999;
+    
+  }
+  /* HEADER STICKY end */
 li.nav-item a.nav-link {
     color: #000000;
     padding-left: 25px !IMPORTANT;
@@ -157,6 +190,14 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .padding_top{
     padding-top: 100px;
+}
+header.header.sticky-bar div#navbarSupportedContent::before {
+    background: #F2F2F2;
+    height: 73px;
+    clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0% 100%);
+    content: "";
+    position: absolute;
+    width: 100%;
 }
 
 /* header end  */
@@ -425,4 +466,8 @@ footer {
 ul.footer_list li a {
     color: #1B3A6A;
     font-weight: 700;
+}
+.testimonial_content p {
+    font-size: 16px;
+    line-height: 25px;
 }
