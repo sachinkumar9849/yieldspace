@@ -650,3 +650,9 @@ section.padding.opportunities .btn_block a {
 section.opportunities .btn_block a {
     padding: 8px 21px;
 }
+i.fa.fa-whatsapp {
+    color: #47c255;
+   
+    font-weight: 800;
+    font-size: 17px;
+}
