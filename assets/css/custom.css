@@ -72,7 +72,7 @@ p {
     padding: 50px;
 }
 .gray_bg{
-    background-color: #EFEAE4;
+    background-color: #f2f2f2;
 }
 .bg_blue{
     background-color: #1B3A6A;
@@ -636,7 +636,7 @@ a.go_backbtn {
     right: 0;
     bottom: -2px
 }
-.explore_btn a {display: flex;justify-content: end;align-items: center;color: #1c1b1b;font-weight: 700;}
+.explore_btn a {display: flex;justify-content: end;align-items: center;color: #1b3a6a;font-weight: 700;}
 a.btn_outline span {
     padding-right: 7px;
     font-size: 16px;
