@@ -271,8 +271,8 @@ section.home_img-section {
 }
 .work_img img {
     width: 72px;
-    min-height: 50px;
-    max-height: 50px;
+    /* min-height: 50px; */
+    /* max-height: 50px; */
 }
 .text_block strong {
     color: #1c1b1b;
@@ -655,4 +655,162 @@ i.fa.fa-whatsapp {
    
     font-weight: 800;
     font-size: 17px;
+}
+
+.thankyou-text h2 ,.thankyou_title h2{
+    font-size: 23px;
+    color: #1B3A6A;
+    font-weight: 700;
+}
+.thankyou-text small {
+    color: #1B3A6A;
+    font-size: 14px;
+    font-weight: 500;
+}
+.icon_list {
+    width: 25%;
+    text-align: center;
+}
+
+.thankyou-icon img {
+    width: 61px;
+}
+#product_slider .banner-slider .slider.slider-nav {
+    height: 499px;
+}
+.thankyou-text {
+    margin-top: 9px;
+}
+.thankyou_scroll.border {
+    padding: 21px;
+}
+.thank_block h4 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.thankyou_scroll {
+    height: 575px;
+    overflow-y: scroll;
+}
+.thank_you_popup {
+    background: #1B3A6A;
+    width: 433px;
+    border-radius: 9px;
+    height: 279px;
+    position: relative;
+}
+.thank_you_close img {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+}
+.thank_you_popup_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    padding: 36px;
+    text-align: center;
+}
+.thank_you_popup_text h2 {
+    color: #D7AC3F;
+    font-size: 26px;
+
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.thank_you_popup_text small {
+    color: white;
+    font-size: 16px;
+}
+a.btn_img:hover {
+    background: #1b3a6ae3;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #D7AC3F; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+  .login_box {
+    width: 544px;
+}
+.border_right {
+    border-left: 1px solid #1B3A6A;
+}
+ul.opportunity_list span {
+    padding-left: 17px;
+}
+ul.opportunity_list li {
+    margin-bottom: 17px;
+}
+/* table start  */
+th {
+    width: 60%;
+    background: #F2F2F2;
+    font-size: 18px;
+    font-weight: 500;
+}
+td{
+    width: 20%;
+    font-size: 18px;
+}
+.table td, .table th {
+   
+}
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    background: #F2F2F2;
+    border: 1px solid #979A9C;
+    border-radius: 10px;
+    font-size: 18px;
+    display: inline-block;
+}
+th.th_width_opportunity {
+    width: 30%;
+}
+td.td_opportunity {
+    width: 70%;
+}
+
+/* table end  */
+.opportunity_item img {
+    width: 74px;
+}
+
+.opportunity_item {
+    text-align: center;
+    margin-bottom: 39px;
+}
+th.price_the {
+    width: 50%;
+}
+
+td.price_td {
+    width: 16%;
+}
+td.price_td strong {
+    color: #1B3A6A;
+}
+section.opportunlty {
+    padding-bottom: 100px;
 }
